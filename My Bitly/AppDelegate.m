@@ -7,16 +7,26 @@
 //
 
 #import "AppDelegate.h"
+#import "MBReachabilityManager.h"
+#import "MBAPIManager.h"
 
-@interface AppDelegate ()
-
-@end
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Start the reachability manager right away so it has time to configure
+    // itself (it takes a moment to detect network availability)
+    [[MBReachabilityManager sharedManager] startWatchingNetwork];
+    
+    // Prepare Cocoa Lumberjack Logging Output
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    
+    // Prepare the API Manager here if you want to use debugging mode
+    [[MBAPIManager sharedManager] setIsDebuggingMode:NO];
+    
     return YES;
 }
 

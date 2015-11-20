@@ -7,43 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3699671BFD81FE00CA720C /* MBLinkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3699661BFD81FE00CA720C /* MBLinkDetailViewController.m */; };
+		2B36B4751BFE9EC20054855B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B36B4741BFE9EC20054855B /* Media.xcassets */; };
+		2B36B4A21BFEE4E70054855B /* My_BitlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B36B4A11BFEE4E70054855B /* My_BitlyTests.m */; };
+		2B36B4AB1BFF8E6F0054855B /* MBAPIResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B36B4AA1BFF8E6F0054855B /* MBAPIResponseObject.m */; };
+		2B970D581BFD4EC000672FA3 /* MBLinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B970D571BFD4EC000672FA3 /* MBLinkTableViewCell.m */; };
+		2B970D5B1BFD524C00672FA3 /* MBAddLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B970D5A1BFD524C00672FA3 /* MBAddLinkViewController.m */; };
 		2BFFBD4B1BFC0DC3005108E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD4A1BFC0DC3005108E7 /* main.m */; };
 		2BFFBD4E1BFC0DC3005108E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD4D1BFC0DC3005108E7 /* AppDelegate.m */; };
-		2BFFBD511BFC0DC3005108E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD501BFC0DC3005108E7 /* ViewController.m */; };
 		2BFFBD541BFC0DC3005108E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFBD521BFC0DC3005108E7 /* Main.storyboard */; };
-		2BFFBD561BFC0DC3005108E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFBD551BFC0DC3005108E7 /* Assets.xcassets */; };
-		2BFFBD591BFC0DC3005108E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFBD571BFC0DC3005108E7 /* LaunchScreen.storyboard */; };
+		2BFFBD661BFC0FAC005108E7 /* MBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD651BFC0FAC005108E7 /* MBLoginViewController.m */; };
+		2BFFBD691BFC0FD7005108E7 /* MBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD681BFC0FD7005108E7 /* MBRootViewController.m */; };
+		2BFFBD6D1BFC13B3005108E7 /* MBUnderlinedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD6C1BFC13B3005108E7 /* MBUnderlinedTextField.m */; };
+		2BFFBD711BFC257A005108E7 /* MBAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD701BFC257A005108E7 /* MBAPIManager.m */; };
+		2BFFBD741BFC26B0005108E7 /* MBReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD731BFC26B0005108E7 /* MBReachabilityManager.m */; };
+		2BFFBD7C1BFC44F1005108E7 /* MBLinkEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFBD7B1BFC44F1005108E7 /* MBLinkEntry.m */; };
+		6895E298764C2C367A168833 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 834CBAF4ABEF2D56E72511AC /* libPods.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2B36B4A41BFEE4E70054855B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BFFBD3E1BFC0DC3005108E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BFFBD451BFC0DC3005108E7;
+			remoteInfo = "My Bitly";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		03B8F344481BC4858F2474D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3699651BFD81FE00CA720C /* MBLinkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLinkDetailViewController.h; sourceTree = "<group>"; };
+		2B3699661BFD81FE00CA720C /* MBLinkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLinkDetailViewController.m; sourceTree = "<group>"; };
+		2B36B4741BFE9EC20054855B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2B36B49F1BFEE4E70054855B /* My BitlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My BitlyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B36B4A11BFEE4E70054855B /* My_BitlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_BitlyTests.m; sourceTree = "<group>"; };
+		2B36B4A31BFEE4E70054855B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B36B4A91BFF8E6F0054855B /* MBAPIResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAPIResponseObject.h; sourceTree = "<group>"; };
+		2B36B4AA1BFF8E6F0054855B /* MBAPIResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAPIResponseObject.m; sourceTree = "<group>"; };
+		2B970D561BFD4EC000672FA3 /* MBLinkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLinkTableViewCell.h; sourceTree = "<group>"; };
+		2B970D571BFD4EC000672FA3 /* MBLinkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLinkTableViewCell.m; sourceTree = "<group>"; };
+		2B970D591BFD524C00672FA3 /* MBAddLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAddLinkViewController.h; sourceTree = "<group>"; };
+		2B970D5A1BFD524C00672FA3 /* MBAddLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAddLinkViewController.m; sourceTree = "<group>"; };
 		2BFFBD461BFC0DC3005108E7 /* My Bitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Bitly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFFBD4A1BFC0DC3005108E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BFFBD4C1BFC0DC3005108E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BFFBD4D1BFC0DC3005108E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2BFFBD4F1BFC0DC3005108E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2BFFBD501BFC0DC3005108E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2BFFBD531BFC0DC3005108E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2BFFBD551BFC0DC3005108E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BFFBD581BFC0DC3005108E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BFFBD5A1BFC0DC3005108E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFFBD641BFC0FAC005108E7 /* MBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLoginViewController.h; sourceTree = "<group>"; };
+		2BFFBD651BFC0FAC005108E7 /* MBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLoginViewController.m; sourceTree = "<group>"; };
+		2BFFBD671BFC0FD7005108E7 /* MBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRootViewController.h; sourceTree = "<group>"; };
+		2BFFBD681BFC0FD7005108E7 /* MBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRootViewController.m; sourceTree = "<group>"; };
+		2BFFBD6B1BFC13B3005108E7 /* MBUnderlinedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBUnderlinedTextField.h; sourceTree = "<group>"; };
+		2BFFBD6C1BFC13B3005108E7 /* MBUnderlinedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBUnderlinedTextField.m; sourceTree = "<group>"; };
+		2BFFBD6F1BFC257A005108E7 /* MBAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAPIManager.h; sourceTree = "<group>"; };
+		2BFFBD701BFC257A005108E7 /* MBAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAPIManager.m; sourceTree = "<group>"; };
+		2BFFBD721BFC26B0005108E7 /* MBReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBReachabilityManager.h; sourceTree = "<group>"; };
+		2BFFBD731BFC26B0005108E7 /* MBReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBReachabilityManager.m; sourceTree = "<group>"; };
+		2BFFBD751BFC28F7005108E7 /* MyBitly.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBitly.pch; sourceTree = "<group>"; };
+		2BFFBD7A1BFC44F1005108E7 /* MBLinkEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLinkEntry.h; sourceTree = "<group>"; };
+		2BFFBD7B1BFC44F1005108E7 /* MBLinkEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLinkEntry.m; sourceTree = "<group>"; };
+		834CBAF4ABEF2D56E72511AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACA45E5E7F1D681C89C86DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BFFBD431BFC0DC3005108E7 /* Frameworks */ = {
+		2B36B49C1BFEE4E70054855B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BFFBD431BFC0DC3005108E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6895E298764C2C367A168833 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B36B4A01BFEE4E70054855B /* My BitlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B36B4A11BFEE4E70054855B /* My_BitlyTests.m */,
+				2B36B4A31BFEE4E70054855B /* Info.plist */,
+			);
+			path = "My BitlyTests";
+			sourceTree = "<group>";
+		};
+		2B970D551BFD4EAD00672FA3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B970D561BFD4EC000672FA3 /* MBLinkTableViewCell.h */,
+				2B970D571BFD4EC000672FA3 /* MBLinkTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2BFFBD3D1BFC0DC3005108E7 = {
 			isa = PBXGroup;
 			children = (
 				2BFFBD481BFC0DC3005108E7 /* My Bitly */,
+				2B36B4A01BFEE4E70054855B /* My BitlyTests */,
 				2BFFBD471BFC0DC3005108E7 /* Products */,
+				65B41ABEB7B0843511ED18C4 /* Pods */,
+				9DB6A25BB6C8E34713BE976C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				2BFFBD461BFC0DC3005108E7 /* My Bitly.app */,
+				2B36B49F1BFEE4E70054855B /* My BitlyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +132,15 @@
 		2BFFBD481BFC0DC3005108E7 /* My Bitly */ = {
 			isa = PBXGroup;
 			children = (
+				2B970D551BFD4EAD00672FA3 /* Cells */,
+				2BFFBD791BFC44B9005108E7 /* Models */,
+				2BFFBD6E1BFC256A005108E7 /* Managers */,
+				2BFFBD6A1BFC138A005108E7 /* Views */,
+				2BFFBD631BFC0FAC005108E7 /* View Controllers */,
 				2BFFBD4C1BFC0DC3005108E7 /* AppDelegate.h */,
 				2BFFBD4D1BFC0DC3005108E7 /* AppDelegate.m */,
-				2BFFBD4F1BFC0DC3005108E7 /* ViewController.h */,
-				2BFFBD501BFC0DC3005108E7 /* ViewController.m */,
 				2BFFBD521BFC0DC3005108E7 /* Main.storyboard */,
-				2BFFBD551BFC0DC3005108E7 /* Assets.xcassets */,
-				2BFFBD571BFC0DC3005108E7 /* LaunchScreen.storyboard */,
+				2B36B4741BFE9EC20054855B /* Media.xcassets */,
 				2BFFBD5A1BFC0DC3005108E7 /* Info.plist */,
 				2BFFBD491BFC0DC3005108E7 /* Supporting Files */,
 			);
@@ -74,21 +150,106 @@
 		2BFFBD491BFC0DC3005108E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BFFBD751BFC28F7005108E7 /* MyBitly.pch */,
 				2BFFBD4A1BFC0DC3005108E7 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2BFFBD631BFC0FAC005108E7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFBD671BFC0FD7005108E7 /* MBRootViewController.h */,
+				2BFFBD681BFC0FD7005108E7 /* MBRootViewController.m */,
+				2BFFBD641BFC0FAC005108E7 /* MBLoginViewController.h */,
+				2BFFBD651BFC0FAC005108E7 /* MBLoginViewController.m */,
+				2B970D591BFD524C00672FA3 /* MBAddLinkViewController.h */,
+				2B970D5A1BFD524C00672FA3 /* MBAddLinkViewController.m */,
+				2B3699651BFD81FE00CA720C /* MBLinkDetailViewController.h */,
+				2B3699661BFD81FE00CA720C /* MBLinkDetailViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2BFFBD6A1BFC138A005108E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFBD6B1BFC13B3005108E7 /* MBUnderlinedTextField.h */,
+				2BFFBD6C1BFC13B3005108E7 /* MBUnderlinedTextField.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BFFBD6E1BFC256A005108E7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFBD6F1BFC257A005108E7 /* MBAPIManager.h */,
+				2BFFBD701BFC257A005108E7 /* MBAPIManager.m */,
+				2BFFBD721BFC26B0005108E7 /* MBReachabilityManager.h */,
+				2BFFBD731BFC26B0005108E7 /* MBReachabilityManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2BFFBD791BFC44B9005108E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFBD7A1BFC44F1005108E7 /* MBLinkEntry.h */,
+				2BFFBD7B1BFC44F1005108E7 /* MBLinkEntry.m */,
+				2B36B4A91BFF8E6F0054855B /* MBAPIResponseObject.h */,
+				2B36B4AA1BFF8E6F0054855B /* MBAPIResponseObject.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65B41ABEB7B0843511ED18C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B8F344481BC4858F2474D6 /* Pods.debug.xcconfig */,
+				8ACA45E5E7F1D681C89C86DD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DB6A25BB6C8E34713BE976C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				834CBAF4ABEF2D56E72511AC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B36B49E1BFEE4E70054855B /* My BitlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B36B4A61BFEE4E70054855B /* Build configuration list for PBXNativeTarget "My BitlyTests" */;
+			buildPhases = (
+				2B36B49B1BFEE4E70054855B /* Sources */,
+				2B36B49C1BFEE4E70054855B /* Frameworks */,
+				2B36B49D1BFEE4E70054855B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B36B4A51BFEE4E70054855B /* PBXTargetDependency */,
+			);
+			name = "My BitlyTests";
+			productName = "My BitlyTests";
+			productReference = 2B36B49F1BFEE4E70054855B /* My BitlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2BFFBD451BFC0DC3005108E7 /* My Bitly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BFFBD5D1BFC0DC3005108E7 /* Build configuration list for PBXNativeTarget "My Bitly" */;
 			buildPhases = (
+				0134E54D28245CD501DB8E9C /* Check Pods Manifest.lock */,
 				2BFFBD421BFC0DC3005108E7 /* Sources */,
 				2BFFBD431BFC0DC3005108E7 /* Frameworks */,
 				2BFFBD441BFC0DC3005108E7 /* Resources */,
+				51570B655107E11FFAB17C3E /* Embed Pods Frameworks */,
+				BFCE41CB13C811500019F0A1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,6 +269,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Newman Creative";
 				TargetAttributes = {
+					2B36B49E1BFEE4E70054855B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 2BFFBD451BFC0DC3005108E7;
+					};
 					2BFFBD451BFC0DC3005108E7 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
@@ -127,35 +292,115 @@
 			projectRoot = "";
 			targets = (
 				2BFFBD451BFC0DC3005108E7 /* My Bitly */,
+				2B36B49E1BFEE4E70054855B /* My BitlyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B36B49D1BFEE4E70054855B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BFFBD441BFC0DC3005108E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BFFBD591BFC0DC3005108E7 /* LaunchScreen.storyboard in Resources */,
-				2BFFBD561BFC0DC3005108E7 /* Assets.xcassets in Resources */,
+				2B36B4751BFE9EC20054855B /* Media.xcassets in Resources */,
 				2BFFBD541BFC0DC3005108E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0134E54D28245CD501DB8E9C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51570B655107E11FFAB17C3E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCE41CB13C811500019F0A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2B36B49B1BFEE4E70054855B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B36B4A21BFEE4E70054855B /* My_BitlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BFFBD421BFC0DC3005108E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BFFBD511BFC0DC3005108E7 /* ViewController.m in Sources */,
 				2BFFBD4E1BFC0DC3005108E7 /* AppDelegate.m in Sources */,
+				2BFFBD6D1BFC13B3005108E7 /* MBUnderlinedTextField.m in Sources */,
+				2BFFBD661BFC0FAC005108E7 /* MBLoginViewController.m in Sources */,
+				2B3699671BFD81FE00CA720C /* MBLinkDetailViewController.m in Sources */,
+				2B970D5B1BFD524C00672FA3 /* MBAddLinkViewController.m in Sources */,
 				2BFFBD4B1BFC0DC3005108E7 /* main.m in Sources */,
+				2BFFBD691BFC0FD7005108E7 /* MBRootViewController.m in Sources */,
+				2BFFBD711BFC257A005108E7 /* MBAPIManager.m in Sources */,
+				2B970D581BFD4EC000672FA3 /* MBLinkTableViewCell.m in Sources */,
+				2BFFBD741BFC26B0005108E7 /* MBReachabilityManager.m in Sources */,
+				2BFFBD7C1BFC44F1005108E7 /* MBLinkEntry.m in Sources */,
+				2B36B4AB1BFF8E6F0054855B /* MBAPIResponseObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B36B4A51BFEE4E70054855B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BFFBD451BFC0DC3005108E7 /* My Bitly */;
+			targetProxy = 2B36B4A41BFEE4E70054855B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2BFFBD521BFC0DC3005108E7 /* Main.storyboard */ = {
@@ -166,17 +411,33 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2BFFBD571BFC0DC3005108E7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BFFBD581BFC0DC3005108E7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2B36B4A71BFEE4E70054855B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My BitlyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getnewman.My-BitlyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Bitly.app/My Bitly";
+			};
+			name = Debug;
+		};
+		2B36B4A81BFEE4E70054855B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My BitlyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getnewman.My-BitlyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Bitly.app/My Bitly";
+			};
+			name = Release;
+		};
 		2BFFBD5B1BFC0DC3005108E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,8 +520,12 @@
 		};
 		2BFFBD5E1BFC0DC3005108E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B8F344481BC4858F2474D6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/My Bitly/MyBitly.pch";
 				INFOPLIST_FILE = "My Bitly/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.getnewman.My-Bitly";
@@ -270,8 +535,12 @@
 		};
 		2BFFBD5F1BFC0DC3005108E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACA45E5E7F1D681C89C86DD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/My Bitly/MyBitly.pch";
 				INFOPLIST_FILE = "My Bitly/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.getnewman.My-Bitly";
@@ -282,6 +551,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B36B4A61BFEE4E70054855B /* Build configuration list for PBXNativeTarget "My BitlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B36B4A71BFEE4E70054855B /* Debug */,
+				2B36B4A81BFEE4E70054855B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2BFFBD411BFC0DC3005108E7 /* Build configuration list for PBXProject "My Bitly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -298,6 +576,7 @@
 				2BFFBD5F1BFC0DC3005108E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
