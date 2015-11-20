@@ -7,6 +7,19 @@ A demo iOS application using the [bit.ly API](dev.bitly.com).
 
 All logos are the property and copyright of bitly, I use them here respectfully but claim no right to do so. Please respect their copyrights.
 
+## API Endpoints Usage
+
+I used the following API endpoints:
+
+* [/oauth/access_token](http://dev.bitly.com/authentication.html#basicauth)
+* [/v3/user/link_save](http://dev.bitly.com/links.html#v3_user_link_save)
+* [/v3/link/clicks](http://dev.bitly.com/link_metrics.html#v3_link_clicks)
+* [/v3/user/link_history](http://dev.bitly.com/user_info.html#v3_user_link_history)
+
+Note: I chose to use the [/v3/link/clicks](http://dev.bitly.com/link_metrics.html#v3_link_clicks) endpoint in lieu of the [/v3/user/clicks](http://dev.bitly.com/user_metrics.html#v3_user_clicks) endpoint because it fit the flow of this simple application more cleanly. I thought it made sense to show link click metrics for the past 7 and 30 days on the link detail page.
+
+
+
 ## Instructions
 
 To run the application, double-click the [My Bitly.xcworkspace](My%20Bitly.xcworkspace) file. Do not click the [My Bitly.xcodeproj](My%20Bitly.xcodeproj) file, it will not load the dependancies properly.
